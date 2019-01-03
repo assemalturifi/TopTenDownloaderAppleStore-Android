@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--step13
+this is not a layout, this is a text view stored in an xml layout file.
+this xml file will be used to display each item in the list.
+this listview will work with adapter.
+this listview doesnt need even an id because the adapter will be
+inflating(sisirmek) if from the xml whenever it needs to create a new one.
+
+next step in mainActivity
+Now we can start coding to crete an adapter then set our listView to use it.
+  -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appTextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="18sp">
+
+</TextView>

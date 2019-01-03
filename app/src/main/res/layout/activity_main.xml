@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--step12
+we finished off parsing of the XML and created a list of entry
+objects with data we wanted in the correct fields. now we need to
+present those information in a useful way on the device screen.
+Now obviously it wouldn't be very efficient to create a textView for
+each record to display the information, because we'd have to add more textView widgets to the layout
+if we wanted to display the results of the top 25 feet for example.
+so what we need is some for of which it can accommodate as many records as necessary without us having
+to worry about how many there are
+so what we are interested in is listView that will display as many views as will fit on
+ the screen. As the screen scrolled, it adds more views to the button or top as you're scrolling down
+ These views can contain more than one widgets, so you could have a textView and an image view widget
+ to display the photo and the  description
+ //next step in item.xml
+
+               -->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>
