@@ -4,4 +4,4 @@ downladed apps and when you rotate the device all the instances are saved.
 I created my own adapter class.
 and Another class to parse the API. 
 
-[!image](https://github.com/assemalturifi/TopTenDownloaderAppleStore-Android/blob/master/Screen%20Shot%202019-01-02%20at%2010.13.25%20PM.png)
+![image](https://github.com/assemalturifi/TopTenDownloaderAppleStore-Android/blob/master/Screen%20Shot%202019-01-02%20at%2010.13.25%20PM.png)
